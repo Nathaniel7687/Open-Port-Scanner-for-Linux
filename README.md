@@ -1,7 +1,7 @@
-Open-Port-Scan
+Open-Port-Scanner
 ==============
 
-Open port scan Program (linux)
+Open port scanner (linux)
 개방된 포트를 찾는 프로그램이다.
 정확히 말하자면 외부망과 내부망의 통신이 가능한 포트를 찾아주는 프로그램이다.
 
