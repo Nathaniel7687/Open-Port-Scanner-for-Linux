@@ -19,5 +19,5 @@ $(OBJS): $(OBJDIR)/%.o: $(SRCDIR)/%.c
 	@mkdir -p $(OBJDIR)
 	$(CC) -I $(INCDIR) -c $(CFLAGS) $< -o $@
 clean:
-	$(DEL) -rf $(OBJDIR)/*.o
+	$(DEL) -rf $(OBJDIR)
 	$(DEL) -rf $(TARGET)
