@@ -5,9 +5,9 @@ CFLAGS+=-fopenmp
 
 TARGET=main
 
-INCDIR=./inc
-SRCDIR=./src
-OBJDIR=./src/obj
+INCDIR=./
+SRCDIR=./
+OBJDIR=./obj
 
 SRCS=$(wildcard $(SRCDIR)/*.c)
 OBJS=$(patsubst %.c,$(OBJDIR)/%.o,$(notdir $(SRCS)))
